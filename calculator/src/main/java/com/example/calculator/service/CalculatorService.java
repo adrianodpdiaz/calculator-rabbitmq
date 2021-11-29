@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Calculator {
+public class CalculatorService {
 	
 	public BigDecimal sum(Double a, Double b) {
 		return BigDecimal.valueOf(a).add(BigDecimal.valueOf(b));

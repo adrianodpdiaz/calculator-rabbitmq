@@ -11,7 +11,6 @@ public class CalculatorConsumer {
 	@RabbitListener(queues = "CALCULATIONS")
 	public void consumer(ResultDTO result) {
 		System.out.println(result.getResult());
-		System.out.println("----------");
 	}
 
 }
